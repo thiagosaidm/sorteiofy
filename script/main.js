@@ -47,5 +47,5 @@ btn.addEventListener("click", () => {
   result === undefined
     ? alert("Digite o número de participantes")
     : ((numeroSorteado.innerHTML = result),
-      (congrats.innerHTML = "Parábens ao ganhador!"));
+      (congrats.innerHTML = "Parabéns ao ganhador!"));
 });
